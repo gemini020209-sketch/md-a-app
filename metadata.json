@@ -1,0 +1,6 @@
+{
+  "name": "VigorTrack",
+  "description": "A scientific health and metabolism tracker that uses AI to analyze food intake, exercise expenditure, and metabolic data.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["AI Food Analysis", "Metabolic Gap Calculation", "Exercise Tracking"]
+}

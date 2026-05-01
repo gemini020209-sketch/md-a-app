@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800&family=Manrope:wght@400;600&family=Space+Grotesk:wght@500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #006e2f;
+  --color-primary-container: #22c55e;
+  --color-on-primary-container: #004b1e;
+  --color-secondary-container: #fd761a;
+  --color-tertiary-container: #ff8b7c;
+  --color-on-tertiary-container: #76231b;
+  --color-surface-container-low: #eff4ff;
+  --color-surface-container-high: #dce9ff;
+  --color-on-surface: #0b1c30;
+  --color-on-surface-variant: #3d4a3d;
+  
+  --font-lexend: "Lexend", ui-sans-serif, system-ui, sans-serif;
+  --font-manrope: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-space: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
+  --radius-3xl: 2.5rem;
+}
+
+@layer base {
+  body {
+    @apply font-manrope bg-[#f8f9ff] text-[#0b1c30];
+  }
+}
+
+.neomorphic-ring-container {
+  box-shadow: -10px -10px 20px rgba(255, 255, 255, 0.9), 10px 10px 20px rgba(109, 123, 108, 0.1);
+}
+
+.neomorphic-ring-inset {
+  box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.8), inset 4px 4px 8px rgba(109, 123, 108, 0.15);
+}
+
+.vibrant-glow {
+  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.25);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
